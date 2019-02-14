@@ -1,0 +1,46 @@
+{
+  "$schema": "../schema.json",
+  "appData": "dd",
+  "index": 5,
+  "assetGroups": [
+    {
+      "name": 1,
+      "installMode": "ss",
+      "updateMode": "ss",
+      "resources": {
+        "files": "dds",
+        "urls": "ddd"
+      }
+    }, {
+      "name": 1,
+      "installMode": "ddd",
+      "updateMode": "sds",
+      "resources": {
+        "files": "dddsd"
+      }
+    }
+  ],
+  "dataGroups": [{
+    "name": 1,
+    "version": "dd",
+    "urls": "dd",
+    "cacheConfig": {
+      "maxSize": "sqds",
+      "maxAge": 1,
+      "strategy": "dss",
+      "timeout": 1
+    }
+  },
+  {
+    "name": 1,
+    "version": "dd",
+    "urls": ["test", "test"],
+    "cacheConfig": {
+      "maxSize": "sqds",
+      "maxAge": 1,
+      "strategy": "dss",
+      "timeout": 1
+    }
+  }],
+  "navigationUrls": ""
+}

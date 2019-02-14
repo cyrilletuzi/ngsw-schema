@@ -1,0 +1,55 @@
+{
+  "$schema": "../schema.json",
+  "appData": {
+    "test": "test"
+  },
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/favicon.ico",
+          "/index.html",
+          "/*.css",
+          "/*.js"
+        ],
+        "urls": ["test", "test2"]
+      }
+    }, {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "lazy",
+      "resources": {
+        "files": [
+          "/assets/**"
+        ]
+      }
+    }
+  ],
+  "dataGroups": [{
+    "name": "test1",
+    "version": 1,
+    "urls": ["test", "test2"],
+    "cacheConfig": {
+      "maxSize": 1,
+      "maxAge": "1h",
+      "strategy": "freshness",
+      "timeout": "1h"
+    }
+  },
+  {
+    "name": "test1",
+    "version": 1,
+    "urls": ["test", "test2"],
+    "cacheConfig": {
+      "maxSize": 1,
+      "maxAge": "1h",
+      "strategy": "performance",
+      "timeout": "1h"
+    }
+  }],
+  "navigationUrls": ["test", "test2"]
+}
