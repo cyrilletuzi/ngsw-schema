@@ -30,7 +30,7 @@
   },
   "scripts": {
     "build": "rimraf dist && copyfiles package.json schema.json README.md CHANGELOG.md LICENSE dist",
-    "publish": "npm run build && npm publish dist"
+    "publish": "npm run build && npm publish dist --access public"
   },
   "devDependencies": {
     "copyfiles": "^2.1.0",
