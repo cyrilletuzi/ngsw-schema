@@ -1,6 +1,6 @@
 {
   "name": "@ngx-pwa/ngsw-schema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON schema for Angular service worker configuration file (ngsw-config.json)",
   "author": "Cyrille Tuzi",
   "license": "MIT",
