@@ -10,14 +10,16 @@
       "resources": {
         "files": "dds",
         "urls": "ddd"
-      }
+      },
+      "other": "test"
     }, {
       "name": 1,
       "installMode": "ddd",
       "updateMode": "sds",
       "resources": {
         "files": "dddsd"
-      }
+      },
+      "other": "test"
     }
   ],
   "dataGroups": [{
@@ -29,7 +31,8 @@
       "maxAge": 1,
       "strategy": "dss",
       "timeout": 1
-    }
+    },
+    "other": "test"
   },
   {
     "name": 1,
@@ -40,7 +43,9 @@
       "maxAge": 1,
       "strategy": "dss",
       "timeout": 1
-    }
+    },
+    "other": "test"
   }],
-  "navigationUrls": ""
+  "navigationUrls": "",
+  "other": "test"
 }
