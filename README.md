@@ -17,9 +17,8 @@ so you could end up with errors in your production build.
 - **assistance**,
 - **no more errors**!
 
-Of course, I have proposed it as [a PR in Angular repo](https://github.com/angular/angular/pull/27859):
-it was reviewed by the Angular team but never merged.
-As I'm tired of fighting, I'm proposing this as an external contribution.
+I proposed [a PR in Angular repo](https://github.com/angular/angular/pull/27859).
+While waiting for merge, I'm proposing this as an external contribution.
 
 ## By the same author
 
